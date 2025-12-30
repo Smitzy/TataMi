@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">TataMi</string>
+    <string name="app_tagline">Sportvereinsmanagement</string>
+
+    <!-- Common -->
+    <string name="email">E-Mail</string>
+    <string name="password">Passwort</string>
+    <string name="loading">Wird geladen…</string>
+    <string name="error">Fehler</string>
+    <string name="success">Erfolgreich</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    <string name="done">Fertig</string>
+    <string name="skip">Überspringen</string>
+    <string name="continue_text">Fortfahren</string>
+    <string name="retry">Erneut versuchen</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">Willkommen zurück</string>
+    <string name="email_placeholder">Geben Sie Ihre E-Mail ein</string>
+    <string name="password_placeholder">Geben Sie Ihr Passwort ein</string>
+    <string name="sign_in">Anmelden</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="dont_have_account">Haben Sie noch kein Konto?</string>
+    <string name="sign_up">Registrieren</string>
+
+    <!-- Register Screen -->
+    <string name="create_account">Konto erstellen</string>
+    <string name="join_tatami_community">Treten Sie der TataMi-Gemeinschaft bei</string>
+    <string name="confirm_password">Passwort bestätigen</string>
+    <string name="confirm_password_placeholder">Bestätigen Sie Ihr Passwort</string>
+    <string name="confirm_password_placeholder_alt">Geben Sie Ihr Passwort erneut ein</string>
+    <string name="password_placeholder_hint">Mindestens 6 Zeichen</string>
+    <string name="terms_conditions">Bedingungen und Konditionen</string>
+    <string name="accept_terms">Ich akzeptiere die Bedingungen und Konditionen</string>
+    <string name="accept_terms_checkbox">Ich stimme den Bedingungen und Konditionen zu</string>
+    <string name="terms_of_service">Nutzungsbedingungen</string>
+    <string name="privacy_policy">Datenschutzrichtlinie</string>
+    <string name="accept_terms_prefix">Ich akzeptiere die</string>
+    <string name="and_text">und</string>
+    <string name="already_have_account">Haben Sie bereits ein Konto?</string>
+    <string name="sign_in_link">Anmelden</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="forgot_your_password">Haben Sie Ihr Passwort vergessen?</string>
+    <string name="reset_password_instruction">Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.</string>
+    <string name="send_reset_email">Zurücksetze-E-Mail senden</string>
+    <string name="back_to_login">Zurück zur Anmeldung</string>
+    <string name="email_sent">E-Mail versendet!</string>
+    <string name="email_sent_message">Wir haben einen Link zum Zurücksetzen des Passworts an %1$s gesendet</string>
+    <string name="check_email_instruction">Bitte überprüfen Sie Ihre E-Mail und folgen Sie den Anweisungen, um Ihr Passwort zurückzusetzen.</string>
+
+    <!-- Validation Messages -->
+    <string name="error_empty_field">Bitte füllen Sie alle Felder aus</string>
+    <string name="error_empty_email">Bitte geben Sie eine E-Mail-Adresse ein</string>
+    <string name="error_invalid_email">Bitte geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="error_weak_password">Das Passwort muss mindestens 6 Zeichen lang sein</string>
+    <string name="error_passwords_dont_match">Passwörter stimmen nicht überein</string>
+    <string name="error_accept_terms">Bitte akzeptieren Sie die Bedingungen und Konditionen</string>
+
+    <!-- Auth Error Messages -->
+    <string name="error_invalid_credentials">Ungültige E-Mail oder Passwort</string>
+    <string name="error_user_not_found">Kein Konto mit dieser E-Mail-Adresse gefunden</string>
+    <string name="error_email_already_in_use">Diese E-Mail ist bereits registriert</string>
+    <string name="error_network">Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung</string>
+    <string name="error_unknown">Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut</string>
+    <string name="error_generic">Ein Fehler ist aufgetreten: %1$s</string>
+    <string name="error_send_reset_email">Fehler beim Senden der Zurücksetze-E-Mail. Bitte versuchen Sie es erneut</string>
+    <string name="error_registration_failed">Registrierung fehlgeschlagen</string>
+
+    <!-- Home Screen -->
+    <string name="home">Startseite</string>
+    <string name="welcome_to_tatami">Willkommen bei TataMi!</string>
+    <string name="home_screen_coming_soon">Startseite - Kommt bald</string>
+    <string name="clubs">Vereine</string>
+    <string name="person_clubs_title">Vereine von %1$s</string>
+    <string name="persons">Personen</string>
+    <string name="events">Ereignisse</string>
+    <string name="settings">Einstellungen</string>
+
+    <!-- Navigation -->
+    <string name="go_back">Zurück gehen</string>
+    <string name="sign_out">Abmelden</string>
+    <string name="sign_out_confirmation">Sind Sie sicher, dass Sie sich abmelden möchten?</string>
+    <string name="sign_out_confirm">Abmelden</string>
+
+    <!-- Email Verification -->
+    <string name="verify_email_title">Bestätigen Sie Ihre E-Mail</string>
+    <string name="verify_email_subtitle">Wir haben eine Bestätigungs-E-Mail an %1$s gesendet</string>
+    <string name="verify_email_instructions">Bitte überprüfen Sie Ihre E-Mail und klicken Sie auf den Bestätigungslink, um Ihr Konto zu aktivieren.</string>
+    <string name="verify_email_check_spam">Wenn Sie die E-Mail nicht sehen, überprüfen Sie bitte Ihren Spam-Ordner.</string>
+    <string name="check_verification_status">Ich habe meine E-Mail bestätigt</string>
+    <string name="resend_verification_email">Bestätigungs-E-Mail erneut senden</string>
+    <string name="resend_email_wait">Erneut senden in %1$d Sekunden</string>
+    <string name="sign_out_different_account">Abmelden und ein anderes Konto verwenden</string>
+    <string name="verification_email_sent">Bestätigungs-E-Mail erfolgreich versendet!</string>
+    <string name="error_checking_verification">Fehler beim Überprüfen des Bestätigungsstatus</string>
+    <string name="error_sending_verification_email">Fehler beim Senden der Bestätigungs-E-Mail</string>
+    <string name="error_create_person_failed">Fehler beim Erstellen der Person</string>
+    <string name="error_create_user_failed">Fehler beim Erstellen des Benutzers</string>
+
+    <!-- Settings -->
+    <string name="theme">Design</string>
+    <string name="light_theme">Hell</string>
+    <string name="dark_theme">Dunkel</string>
+    <string name="system_theme">Systemstandard</string>
+    <string name="dynamic_colors">Dynamische Farben</string>
+    <string name="dynamic_colors_description">Verwenden Sie Farben aus Ihrem Hintergrundbild (Android 12+)</string>
+
+    <!-- Settings Categories -->
+    <string name="system_settings">Systemeinstellungen</string>
+    <string name="system_settings_description">Design und Datums-/Zeitformate</string>
+    <string name="account_settings">Kontoeinstellungen</string>
+    <string name="account_settings_description">Verwalten Sie Ihr Konto und Ihre Sicherheit</string>
+    <string name="club_administration">Vereinseinstellungen</string>
+    <string name="club_administration_description">Verwalten Sie Vereine, Mitglieder und Anfragen</string>
+
+    <!-- Color Themes -->
+    <string name="color_theme">Farbdesign</string>
+    <string name="theme_default">Standard</string>
+    <string name="theme_ocean">Ozean</string>
+    <string name="theme_forest">Wald</string>
+    <string name="theme_sunset">Sonnenuntergang</string>
+    <string name="theme_sakura">Sakura</string>
+    <string name="theme_monochrome">Einfarbig</string>
+
+    <!-- Date &amp; Time Format -->
+    <string name="date_time_format">Datums- &amp; Zeitformat</string>
+    <string name="time_format">Zeitformat</string>
+    <string name="date_format">Datumsformat</string>
+    <string name="time_format_12_hour">12-Stunden (AM/PM)</string>
+    <string name="time_format_24_hour">24-Stunden</string>
+    <string name="date_format_mm_dd_yyyy">MM/DD/YYYY (Amerikanisch)</string>
+    <string name="date_format_dd_mm_yyyy">DD/MM/YYYY (Europäisch)</string>
+    <string name="date_format_yyyy_mm_dd">YYYY-MM-DD (ISO)</string>
+    <string name="date_format_dd_month_yyyy">DD Monat YYYY</string>
+    <string name="date_format_month_dd_yyyy">Monat DD, YYYY</string>
+
+    <!-- Account Management -->
+    <string name="account_management">Kontoverwaltung</string>
+
+    <!-- Belt System -->
+    <string name="kyu_format">%1$d. Kyu</string>
+    <string name="dan_format">%1$d. Dan</string>
+
+    <!-- Person Management -->
+    <string name="person_list_title">Personen</string>
+    <string name="error_first_name_required">Vorname ist erforderlich</string>
+    <string name="error_last_name_required">Nachname ist erforderlich</string>
+    <string name="error_gender_required_competitor">Geschlecht ist für Wettkämpfer erforderlich</string>
+    <string name="person_add">Person hinzufügen</string>
+    <string name="person_add_first">Fügen Sie Ihre erste Person hinzu</string>
+    <string name="person_list_empty_title">Noch keine Personen</string>
+    <string name="person_list_empty_message">Erstellen Sie Personenprofile für sich selbst, Familienmitglieder oder Athleten, die Sie verwalten.</string>
+    <string name="person_detail_title">Personendetails</string>
+    <string name="person_create_title">Person erstellen</string>
+    <string name="person_edit_title">Person bearbeiten</string>
+    <string name="first_person_welcome_title">Willkommen bei TataMi!</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="first_name_placeholder">Geben Sie den Vornamen ein</string>
+    <string name="last_name_placeholder">Geben Sie den Nachnamen ein</string>
+    <string name="create_person_button">Person erstellen</string>
+    <string name="is_judoka">Ist ein Judoka</string>
+    <!-- Removed: is_competitor, is_competitor_question, competitor_yes_description, competitor_no_description -->
+    <string name="belt_level">Gürtelgrad</string>
+    <string name="year_of_birth">Geburtsjahr</string>
+    <string name="sex">Geschlecht</string>
+    <string name="gender">Geschlecht</string>
+    <string name="gender_male">Männlich</string>
+    <string name="gender_female">Weiblich</string>
+    <string name="other">Sonstiges</string>
+    <!-- Removed: weight, weight_placeholder -->
+    <string name="profile_photo">Profilfoto</string>
+    <string name="profile_image">Profilbild</string>
+    <string name="upload_photo">Foto hochladen</string>
+    <string name="change_photo">Foto ändern</string>
+    <string name="remove_photo">Foto entfernen</string>
+    <string name="add_photo">Foto hinzufügen</string>
+    <string name="tap_to_change_photo">Tippen Sie, um das Foto zu ändern</string>
+    <string name="select_image_source">Bildquelle auswählen</string>
+    <string name="take_photo">Foto machen</string>
+    <string name="choose_from_gallery">Aus Galerie auswählen</string>
+    <string name="crop_image">Bild zuschneiden</string>
+    <string name="judo_profile">Judoprofil</string>
+    <string name="user_not_found">Benutzer nicht gefunden</string>
+    <string name="save_person">Person speichern</string>
+    <string name="saving">Wird gespeichert...</string>
+    <string name="validating_person">Personendaten werden validiert...</string>
+    <string name="creating_person">Person wird erstellt...</string>
+    <string name="person_created_successfully">Person erfolgreich erstellt!</string>
+    <string name="basic_information">Grundlegende Informationen</string>
+    <string name="male">Männlich</string>
+    <string name="female">Weiblich</string>
+    <string name="not_specified">Nicht angegeben</string>
+    <string name="year_of_birth_placeholder">z.B. 1990</string>
+    <string name="unknown_error">Unbekannter Fehler</string>
+    <string name="belt_section_kyu">Kyu</string>
+    <string name="belt_section_dan">Dan</string>
+    <string name="last_weigh_in">Letzte Gewichtskontrolle</string>
+    <string name="save_changes">Änderungen speichern</string>
+    <string name="person_updated_successfully">Person erfolgreich aktualisiert!</string>
+    <string name="save_profile_picture">Profilbild speichern</string>
+    <string name="person_not_found">Person nicht gefunden</string>
+
+    <!-- Validation Messages -->
+    <string name="validation_first_name_required">Vorname ist erforderlich</string>
+    <string name="validation_first_name_min_length">Der Vorname muss mindestens %1$d Zeichen lang sein</string>
+    <string name="validation_first_name_max_length">Der Vorname darf nicht mehr als %1$d Zeichen lang sein</string>
+    <string name="validation_first_name_invalid_chars">Der Vorname darf nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten</string>
+    <string name="validation_first_name_invalid_consecutive">Der Vorname darf keine aufeinanderfolgenden Leerzeichen, Bindestriche oder Apostrophe enthalten</string>
+    <string name="validation_last_name_required">Nachname ist erforderlich</string>
+    <string name="validation_last_name_min_length">Der Nachname muss mindestens %1$d Zeichen lang sein</string>
+    <string name="validation_last_name_max_length">Der Nachname darf nicht mehr als %1$d Zeichen lang sein</string>
+    <string name="validation_last_name_invalid_chars">Der Nachname darf nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten</string>
+    <string name="validation_last_name_invalid_consecutive">Der Nachname darf keine aufeinanderfolgenden Leerzeichen, Bindestriche oder Apostrophe enthalten</string>
+    <string name="validation_belt_level_required">Der Gürtelgrad ist für Judokas erforderlich</string>
+    <string name="validation_sex_required">Geschlecht ist erforderlich</string>
+    <string name="validation_year_of_birth_required">Geburtsjahr ist erforderlich</string>
+    <string name="validation_year_of_birth_min">Das Geburtsjahr muss nach 1900 liegen</string>
+    <string name="validation_year_of_birth_future">Das Geburtsjahr kann nicht in der Zukunft liegen</string>
+    <!-- Removed: validation_gender_required, validation_weight_required, validation_weight_min, validation_weight_max -->
+
+    <!-- Join or Create Club -->
+    <string name="join_or_create_club_title">Verein beitreten oder erstellen</string>
+    <string name="join_or_create_club_welcome">Willkommen zur Vereins-Einrichtung!</string>
+    <string name="join_or_create_club_description">Um zu beginnen, müssen Sie Teil eines Vereins sein. Sie können entweder einem bestehenden Verein beitreten oder einen eigenen erstellen.</string>
+    <string name="join_existing_club">Verein beitreten</string>
+    <string name="join_existing_club_description">Geben Sie einen Vereins-Code ein, um einem bestehenden Verein beizutreten</string>
+    <string name="create_new_club">Neuen Verein erstellen</string>
+    <string name="create_new_club_description">Richten Sie Ihren eigenen Verein ein und laden Sie Mitglieder ein</string>
+
+    <!-- Join Club -->
+    <string name="join_club_title">Verein beitreten</string>
+    <string name="join_club_enter_code">Vereins-Code eingeben</string>
+    <string name="join_club_code_description">Geben Sie den 8-stelligen Code ein, der von Ihrem Vereinsadministrator oder Trainer bereitgestellt wurde.</string>
+    <string name="club_code_label">Vereins-Code</string>
+    <string name="join_club_button">Verein beitreten</string>
+    <string name="invalid_club_code_length">Der Vereins-Code muss genau 8 Zeichen lang sein</string>
+    <string name="where_to_find_code_title">Wo findet man den Code?</string>
+    <string name="join_request_club_name">Verein: %1$s</string>
+    <string name="joined_club_success_title">Willkommen im Verein!</string>
+    <string name="joined_club_success_message">Sie sind erfolgreich %1$s beigetreten.</string>
+
+    <!-- Create Club -->
+    <string name="create_club_title">Verein erstellen</string>
+    <string name="club_name_label">Vereinsname</string>
+    <string name="club_description_label">Beschreibung</string>
+    <string name="club_description_placeholder">Erzählen Sie uns von Ihrem Verein...</string>
+    <string name="club_location_label">Land</string>
+    <string name="club_location_placeholder">z.B. Deutschland, Japan, USA</string>
+    <string name="create_club_button">Verein erstellen</string>
+    <string name="create_club_info_title">Was kommt als Nächstes?</string>
+    <string name="create_club_info_description">Nach der Erstellung Ihres Vereins erhalten Sie einen eindeutigen Vereins-Code, den Sie mit Mitgliedern teilen können, um beizutreten. Sie werden als Vereins-Administrator festgelegt.</string>
+    <string name="club_currency_label">Währung</string>
+    <string name="club_timezone_label">Zeitzone</string>
+    <string name="club_timezone_placeholder">Wählen Sie eine Zeitzone</string>
+    <string name="timezone_picker_title">Wählen Sie Zeitzone</string>
+    <string name="timezone_search_placeholder">Suchen Sie Städte, Länder oder Abkürzungen</string>
+    <string name="timezone_current_section">Aktuelle Zeitzone</string>
+    <string name="timezone_all_section">Alle Zeitzonen</string>
+    <string name="timezone_current_label">Aktuell</string>
+    <string name="search_timezone">Zeitzone suchen...</string>
+
+    <!-- Club Creation Flow -->
+    <string name="club_profile_picture_subtitle">Fügen Sie ein Logo oder Bild für %1$s hinzu</string>
+    <string name="club_created_successfully">Verein erfolgreich erstellt!</string>
+    <string name="club_ready_message">%1$s ist jetzt einsatzbereit und Sie sind der Administrator.</string>
+    <string name="next_steps_title">Nächste Schritte</string>
+    <string name="invite_members_title">Mitglieder einladen</string>
+    <string name="invite_members_description">Teilen Sie Ihren Vereins-Code mit potenziellen Mitgliedern</string>
+    <string name="get_started">Erste Schritte</string>
+    <string name="error_create_club_failed">Fehler beim Erstellen des Vereins. Bitte versuchen Sie es erneut.</string>
+
+    <!-- Club Validation -->
+    <string name="validation_club_name_required">Vereinsname ist erforderlich</string>
+    <string name="validation_club_name_min_length">Der Vereinsname muss mindestens 3 Zeichen lang sein</string>
+    <string name="validation_club_name_max_length">Der Vereinsname darf nicht mehr als 100 Zeichen lang sein</string>
+    <string name="validation_club_name_no_newlines">Der Vereinsname darf keine Zeilenumbrüche enthalten</string>
+    <string name="validation_club_description_min_length">Die Beschreibung muss mindestens 10 Zeichen lang sein</string>
+    <string name="validation_club_description_max_length">Die Beschreibung darf nicht mehr als 500 Zeichen lang sein</string>
+    <string name="validation_club_description_no_newlines">Die Beschreibung darf keine Zeilenumbrüche enthalten</string>
+    <string name="validation_club_country_code_min_length">Der Ländercode muss mindestens 2 Zeichen lang sein</string>
+    <string name="validation_club_country_code_max_length">Der Ländercode darf nicht mehr als 100 Zeichen lang sein</string>
+    <string name="validation_club_country_code_invalid">Bitte wählen Sie ein gültiges Land</string>
+
+    <!-- Club Created Screen -->
+    <string name="club_created_title">Verein erstellt!</string>
+    <string name="club_invite_code_label">Ihr Vereins-Einladungscode</string>
+    <string name="copy_invite_code">Einladungscode kopieren</string>
+    <string name="invite_code_copied">Einladungscode in die Zwischenablage kopiert</string>
+    <string name="club_created_info_title">Was kommt als Nächstes?</string>
+    <string name="club_created_info_description">Rufen Sie Ihren Einladungscode für Ihren Verein in den Einstellungen ab und teilen Sie ihn mit zukünftigen Mitgliedern.</string>
+    <string name="continue_to_club">Zum Verein gehen</string>
+    <string name="club_created_tip_invite_title">Mitglieder einladen</string>
+    <string name="club_created_tip_invite_description">Gehen Sie zu Einstellungen → Vereins-Einstellungen, um Einladungscodes für Ihre Mitglieder zu generieren</string>
+    <string name="club_created_tip_settings_title">Konfigurieren Sie Ihren Verein</string>
+    <string name="club_created_tip_settings_description">Richten Sie Trainer ein, verwalten Sie Berechtigungen und passen Sie Vereins-Details an</string>
+    <string name="club_created_next_steps_title">Bereit zu gehen!</string>
+
+    <!-- Club List Screen -->
+    <string name="add_club">Verein hinzufügen</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="no_clubs_title">Noch keine Vereine</string>
+    <string name="no_clubs_message">Treten Sie einem bestehenden Verein bei oder erstellen Sie einen eigenen, um zu beginnen.</string>
+    <string name="join_or_create_club">Verein beitreten oder erstellen</string>
+    <string name="role_owner">Besitzer</string>
+    <string name="role_admin">Administrator</string>
+    <string name="role_member">Mitglied</string>
+
+    <!-- Club Validation -->
+    <string name="validation_club_name_invalid_chars">Vereinsname enthält ungültige Zeichen</string>
+    <string name="validation_club_description_invalid_chars">Beschreibung enthält ungültige Zeichen</string>
+    <string name="validation_sport_required">Bitte wählen Sie einen Sport für Ihren Verein</string>
+    <string name="validation_belt_system_required">Bitte wählen Sie ein Gürtelsystem für Ihren Verein</string>
+
+    <!-- Bottom Navigation -->
+    <string name="group">Gruppe</string>
+
+    <!-- Club Settings -->
+    <string name="club_settings_title">Vereins-Einstellungen</string>
+    <string name="manage_clubs">Vereine verwalten</string>
+    <string name="manage_clubs_description">Verwalten Sie Vereine, die Sie verwalten</string>
+    <string name="not_admin_message">Sie sind kein Administrator dieses Vereins</string>
+    <string name="no_club_selected">Kein Verein ausgewählt</string>
+    <string name="dismiss">Schließen</string>
+
+    <!-- Edit Club Name -->
+    <string name="edit_club_name">Vereinsname bearbeiten</string>
+    <string name="edit_club_name_title">Vereinsnamen ändern</string>
+    <string name="club_name_placeholder">Geben Sie den Vereinsnamen ein</string>
+
+    <!-- Delete Club -->
+    <string name="danger_zone">Gefahrenzone</string>
+    <string name="delete_club">Verein löschen</string>
+    <string name="delete_club_title">Verein löschen?</string>
+    <string name="delete_club_warning">Das Löschen dieses Vereins entfernt permanent alle Ereignisse, Gruppen, Trainings und Memberdaten. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_club_confirmation">Sind Sie sicher, dass Sie \"%1$s\" löschen möchten? Alle Vereins-Daten werden dauerhaft gelöscht und können nicht wiederhergestellt werden.</string>
+
+    <!-- Invite Code Management -->
+    <string name="invite_code_title">Einladungscode</string>
+    <string name="copy_code">Code kopieren</string>
+    <string name="code_copied_to_clipboard">Code in die Zwischenablage kopiert</string>
+    <string name="expires_in_days">Läuft in %1$d Tagen ab</string>
+    <string name="expires_in_one_day">Läuft in 1 Tag ab</string>
+    <string name="expires_today">Läuft heute ab</string>
+    <string name="valid_until">Gültig bis: %1$s</string>
+    <string name="generate_new_code">Neuer Code</string>
+    <string name="remove_code">Entfernen</string>
+    <string name="no_active_code">Kein aktiver Einladungscode</string>
+    <string name="no_active_code_description">Generieren Sie einen Code, damit neue Mitglieder Ihrem Verein beitreten können. Codes sind 7 Tage lang gültig.</string>
+    <string name="generate_invite_code">Einladungscode generieren</string>
+
+    <!-- Profile Picture Upload Screen -->
+    <string name="add_profile_picture_title">Profilbild hinzufügen</string>
+    <string name="profile_picture_person_subtitle">Helfen Sie anderen, Sie zu erkennen</string>
+    <string name="profile_picture_club_recognize_subtitle">Hilft Mitgliedern, %1$s zu erkennen.</string>
+    <string name="profile_picture_club_subtitle">Machen Sie Ihren Verein herausragend</string>
+    <string name="profile_picture_description">Ein Profilbild hilft, Vertrauen aufzubauen und macht Interaktionen persönlicher</string>
+    <string name="profile_picture_benefits_title">Warum ein Foto hinzufügen?</string>
+    <string name="profile_picture_person_benefits">• Erleichtert Trainern und Vereins-Mitgliedern Ihre Identifizierung\n• Zeigt, dass Sie ein echtes Community-Mitglied sind\n• Hilft beim Aufbau von Verbindungen zu anderen Mitgliedern</string>
+    <string name="profile_picture_club_benefits">• Macht Ihren Verein erkennbarer\n• Zieht neue Mitglieder an\n• Schafft Vertrauen und Professionalität</string>
+    <string name="skip_for_now">Jetzt überspringen</string>
+
+    <!-- Sport Selection Screen -->
+    <string name="create_club_sport_selection_title">Wählen Sie Ihren Sport</string>
+    <string name="create_club_sport_selection_description">Wählen Sie die primäre Kampfkunst oder Kampfsportart für Ihren Verein</string>
+
+    <!-- Belt System Selection Screen -->
+    <string name="create_club_belt_system_title">Wählen Sie Gürtelsystem</string>
+    <string name="create_club_belt_system_description">Wählen Sie das Gürtelsystem, das Ihr Verein verwendet.</string>
+    <string name="selected_sport">Ausgewählter Sport</string>
+
+    <!-- Timezone Screen -->
+    <string name="create_club_timezone_title">Vereins-Zeitzone einstellen</string>
+
+    <!-- Profile Image Screens -->
+    <string name="club_profile_image_title">Vereins-Logo hinzufügen</string>
+    <string name="club_profile_image_description">Laden Sie ein Logo oder Bild hoch, das Ihren Verein repräsentiert. Dies hilft Mitgliedern, Ihren Verein zu identifizieren.</string>
+
+    <!-- General UI -->
+    <string name="copy">Kopieren</string>
+    <string name="share">Teilen</string>
+    <string name="club_invite_code">Vereins-Einladungscode</string>
+
+    <!-- Club Join Errors -->
+    <string name="error_invalid_invite_code">Ungültiger Einladungscode</string>
+    <string name="error_already_club_member">Sie sind bereits Mitglied dieses Vereins</string>
+
+    <!-- Event Management -->
+    <string name="event_edit_name_label">Namen bearbeiten</string>
+    <string name="event_edit_when_label">Zeit bearbeiten</string>
+    <string name="event_edit_where_label">Ort bearbeiten</string>
+    <string name="event_edit_details_label">Details bearbeiten</string>
+    <string name="event_when_label">Wann</string>
+    <string name="event_where_label">Wo</string>
+    <string name="event_details_label">Details</string>
+    <string name="event_your_response_label">Ihre Antwort</string>
+    <string name="event_admin_view_title">Admin-Ansicht</string>
+    <string name="event_admin_view_description">Sie sehen dieses Ereignis als Administrator. Sie wurden nicht eingeladen und können nicht antworten.</string>
+    <string name="event_not_found">Ereignis nicht gefunden</string>
+    <string name="event_delete_title">Ereignis löschen</string>
+    <string name="event_delete_confirmation">Sind Sie sicher, dass Sie \"%1$s\" löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="event_view_responses_button">Alle Antworten anzeigen (%1$d)</string>
+    <string name="event_name_label">Ereignisname</string>
+    <string name="event_description_label">Beschreibung</string>
+    <string name="event_location_label">Ort</string>
+    <string name="event_create_title">Ereignis erstellen</string>
+    <string name="event_title_label">Titel</string>
+    <string name="event_select_members_button">Mitglieder auswählen (%1$d)</string>
+    <string name="event_pick_date_button">Datum wählen</string>
+    <string name="event_pick_time_button">Zeit wählen</string>
+    <string name="event_select_time_title">Zeit wählen</string>
+
+    <!-- Group Management -->
+    <string name="group_statistics_label">Statistiken</string>
+    <string name="group_change_name_label">Name ändern</string>
+    <string name="group_manage_members_label">Mitglieder verwalten</string>
+    <string name="group_manage_trainers_label">Trainer verwalten</string>
+    <string name="group_member_trainer_count">%1$d Mitglieder • %2$d Trainer</string>
+    <string name="group_show_members_button">Mitglieder anzeigen (%1$d)</string>
+    <string name="group_show_trainings_button">Trainings anzeigen</string>
+    <string name="group_not_found">Gruppe nicht gefunden</string>
+    <string name="group_delete_title">Gruppe löschen</string>
+    <string name="group_delete_confirmation">Sind Sie sicher, dass Sie \"%1$s\" löschen möchten? Dies löscht auch alle Trainings in dieser Gruppe. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="group_change_name_title">Gruppennamen ändern</string>
+    <string name="group_name_label">Gruppenname</string>
+    <string name="group_members_label">Mitglieder</string>
+    <string name="group_access_denied_title">Zugriff verweigert</string>
+    <string name="group_access_denied_message">Sie haben keine Berechtigung, diese Gruppe anzusehen.</string>
+    <string name="group_create_title">Gruppe erstellen</string>
+    <string name="group_select_members_trainers">Mitglieder &amp; Trainer auswählen (%1$d Mitglieder, %2$d Trainer)</string>
+
+    <!-- Training Management -->
+    <string name="training_not_found_title">Training nicht gefunden</string>
+    <string name="training_delete_title">Training löschen</string>
+    <string name="training_delete_confirmation">Sind Sie sicher, dass Sie dieses Training löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="training_notes_placeholder">Trainingsnotizen hinzufügen...</string>
+    <string name="training_notes_label">Notizen</string>
+
+    <!-- Club Management FAB -->
+    <string name="club_create_new_button">Neuen Verein erstellen</string>
+    <string name="club_join_existing_button">Bestehenden Verein beitreten</string>
+
+    <!-- Common Dialog Buttons (already exist but listed for reference) -->
+    <string name="confirm">Bestätigen</string>
+    <string name="select_time_ok">OK</string>
+    <string name="select_time_cancel">Abbrechen</string>
+
+    <!-- Common UI Elements -->
+    <string name="dismiss_button">Schließen</string>
+</resources>
